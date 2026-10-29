@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Konan Yoann — Administration systèmes &amp; réseaux</title>
-<meta name="description" content="Étudiant en BUT Informatique à l'IUT de Montreuil, à la recherche d'une alternance en administration systèmes et réseaux.">
+<meta name="description" content="Étudiant en BUT Informatique à l'IUT de Montreuil, à la recherche d'un stage de 4 à 6 mois à partir de mars/avril 2027 en administration systèmes et réseaux, développement ou bases de données.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
@@ -258,7 +258,7 @@ footer{
   <!-- ============ HERO ============ -->
   <section class="hero">
     <div>
-      <p class="hero-tag"><span class="dot"></span> disponible — alternance rentrée septembre 2026</p>
+      <p class="hero-tag"><span class="dot"></span> disponible — stage de 4 à 6 mois dès mars/avril 2027</p>
       <h1>Konan<span class="second">Yoann</span></h1>
       <p class="role">administrateur <span>·</span> systèmes <span>·</span> réseaux<span class="caret"></span></p>
       <p class="pitch">Étudiant en 3ᵉ année de BUT Informatique à l'IUT de Montreuil. Je construis
@@ -277,10 +277,10 @@ footer{
         <span class="live">● en ligne</span>
       </div>
       <div class="console-body">
-        <div class="row"><span class="k">statut</span><span class="v ok">recherche alternance</span></div>
-        <div class="row"><span class="k">poste</span><span class="v">admin systèmes &amp; réseaux</span></div>
-        <div class="row"><span class="k">formation</span><span class="v">BUT Informatique — IUT Montreuil</span></div>
-        <div class="row"><span class="k">année</span><span class="v">3ᵉ année — rentrée sept. 2026</span></div>
+        <div class="row"><span class="k">statut</span><span class="v ok">recherche stage · 4 à 6 mois</span></div>
+        <div class="row"><span class="k">début</span><span class="v">mars / avril 2027</span></div>
+        <div class="row"><span class="k">domaines</span><span class="v">systèmes &amp; réseaux · dev · bases de données</span></div>
+        <div class="row"><span class="k">formation</span><span class="v">BUT Informatique (3ᵉ année) — IUT Montreuil</span></div>
         <div class="row"><span class="k">zone</span><span class="v">Vernouillet (78) — Île-de-France</span></div>
         <div class="row"><span class="k">langues</span><span class="v">français, anglais</span></div>
         <div class="row"><span class="k">dernier job</span><span class="v amber">stage DSI — banque, Abidjan</span></div>
@@ -323,14 +323,14 @@ footer{
       <div class="card">
         <h3>frameworks &amp; outils</h3>
         <ul class="tags">
-          <li>Flask</li><li>Angular</li><li>JavaFX</li><li>JUnit</li>
+          <li>Flask</li><li>Streamlit</li><li>Angular</li><li>JavaFX</li><li>JUnit</li>
           <li>Git</li><li>IntelliJ</li><li>PyCharm</li>
         </ul>
       </div>
       <div class="card">
         <h3>données &amp; conception</h3>
         <ul class="tags">
-          <li>PostgreSQL</li><li>MongoDB</li><li>UML</li><li>MVC</li><li>Design patterns</li>
+          <li>PostgreSQL</li><li>MongoDB</li><li>SQLAlchemy</li><li>UML</li><li>MVC</li><li>Design patterns</li>
         </ul>
       </div>
     </div>
@@ -387,16 +387,27 @@ footer{
   <hr class="rule">
 
   <!-- ============ PROJETS ============ -->
-  <!-- À COMPLÉTER : remplace le contenu de chaque carte par tes vrais projets  -->
-  <!-- (BUT, perso, GitHub). Duplique un bloc <article class="card project"> pour  -->
-  <!-- en ajouter un. Supprime ceux que tu ne veux pas.                            -->
   <section id="projets" class="reveal">
     <p class="eyebrow">~/projets</p>
     <h2>Ce que j'ai construit</h2>
     <p class="lead">Projets menés en BUT et en autonomie. Le code est sur
       <a href="https://github.com/yk18b" style="color:var(--amber)">github.com/yk18b</a>.</p>
 
-    <div class="grid cols-3">
+    <div class="grid cols-2">
+      <article class="card project">
+        <p class="meta">BUT 3 · 2026</p>
+        <h3>API et dashboard de pilotage des files de jeu</h3>
+        <p>API REST qui expose des données de parties Riot Games (League of Legends,
+           Valorant, TFT…) et tableau de bord d'analyse pour suivre l'activité des files.</p>
+        <ul class="tags"><li>Python</li><li>Flask</li><li>SQLAlchemy</li><li>Streamlit</li></ul>
+      </article>
+      <article class="card project">
+        <p class="meta">BUT 3 · en cours · en équipe</p>
+        <h3>Plateforme de financement participatif — musique classique</h3>
+        <p>Plateforme qui met en relation artistes, projets et donateurs. Je travaille
+           sur la conception et la modélisation de la base de données.</p>
+        <ul class="tags"><li>Base de données</li><li>Modélisation</li><li>Travail en équipe</li></ul>
+      </article>
       <article class="card project">
         <p class="meta">BUT 2 · SAÉ · en trinôme</p>
         <h3>Buvette associative — application web</h3>
@@ -412,13 +423,6 @@ footer{
            carte, utilisation d'objets et système de combat.</p>
         <ul class="tags"><li>Java</li><li>JavaFX</li><li>Maven</li><li>POO</li></ul>
         <a class="repo" href="https://github.com/abenib10/LaFoudreZELDA-Java" target="_blank" rel="noopener">voir le code ↗</a>
-      </article>
-      <article class="card project">
-        <p class="meta">Perso · à compléter</p>
-        <h3>Titre du projet</h3>
-        <p>Un lab réseau, une VM configurée, un script d'automatisation : parfait pour
-           une candidature en admin sys.</p>
-        <ul class="tags"><li>Linux</li><li>Réseau</li></ul>
       </article>
     </div>
   </section>
@@ -462,13 +466,14 @@ footer{
   <!-- ============ CONTACT ============ -->
   <section id="contact" class="reveal">
     <p class="eyebrow">~/contact</p>
-    <h2>Parlons alternance</h2>
-    <p class="lead">Je cherche une alternance en administration systèmes et réseaux en
-      Île-de-France. Un poste à pourvoir, une question, un café : écrivez-moi.</p>
+    <h2>Parlons stage</h2>
+    <p class="lead">Je cherche un stage de 4 à 6 mois à partir de mars/avril 2027, en
+      administration systèmes et réseaux, développement ou bases de données, en
+      Île-de-France. Un stage à pourvoir, une question : écrivez-moi.</p>
 
     <div class="contact-grid">
-      <a href="mailto:ykonan@iut.univ-paris8.fr">
-        <span class="k">email</span><span>ykonan@iut.univ-paris8.fr</span>
+      <a href="mailto:yoannkonan783@gmail.com">
+        <span class="k">email</span><span>yoannkonan783@gmail.com</span>
       </a>
       <a href="https://github.com/yk18b" target="_blank" rel="noopener">
         <span class="k">github</span><span>github.com/yk18b</span>
